@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento:700" rel="stylesheet">
   <title>Contact Plaza del Epicodus</title>
 </head>
 <body>
-  <div class="nav">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="accommodations.html">Accommodations</a></li>
-      <li><a href="activities.html">Activities</a></li>
-      <li><a href="travel.html">Travel</a></li>
-      <li><a href="pictures.html">Gallery</a></li>
-      <li><a href="contact.html">Contact Us</a></li>
-    </ul>
-  </div>
-  <h1>Contact Us!</h2>
-  <div class="con-img">
-    <img src="img/bottle.jpg" alt="Note in a bottle in the sand">
-  </div>
-  <div class="con-text">
-    <p>Our beautiful resort is located in the Indian Ocean. Please inquire about packages and other accommodations.</p>
-  </div>
-  <div class="con-form">
-      <form action="/my-handling-form-page" method="post">
-    <div>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="user_name">
+  <div class="main-container">
+    <div class="nav">
+      <h1>Plaza del Epicodus</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="accommodations.html">Accommodations</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="travel.html">Travel</a></li>
+        <li><a href="pictures.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
     </div>
-    <div>
-      <label for="mail">E-mail:</label>
-      <input type="email" id="mail" name="user_mail">
+    <h1 class="contact">Contact Us!</h2>
+    <div class="con-img">
+      <img src="img/bottle.jpg" alt="Note in a bottle in the sand">
     </div>
-    <div>
-      <label for="phone">Phone Number:</label>
-      <input type="phone" id="number" name="user_phone">
+    <div class="con-text">
+      <p>Our beautiful resort is located in the Indian Ocean. Please inquire about packages and other accommodations.</p>
     </div>
-    <div>
-      <label for="msg">Message:</label>
-      <textarea id="msg" name="user_message"></textarea>
+    <div class="con-form">
+        <form action="/my-handling-form-page" method="post">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name">
+      </div>
+      <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail">
+      </div>
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input type="phone" id="number" name="user_phone">
+      </div>
+      <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Send your message</button>
+      </div>
+    </form>
     </div>
-    <div class="button">
-      <button type="submit">Send your message</button>
-    </div>
-  </form>
-
   </div>
 </body>
 </html>
