@@ -1,12 +1,16 @@
 body {
   background-image: url(../img/dark.png);
   background-color: black;
+      margin-top: 0px;
 }
 
 h1, h2, p {
   color: white;
 }
-
+.nav h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
 li {
   display: inline-block;
   margin-right: 10px;
@@ -15,11 +19,15 @@ li {
 
   font-family: 'Quattrocento', serif;
 }
-
+ul{
+    padding: 0px;
+}
 li:hover {
   background: white;
 }
-
+img{
+  max-width: 100%;
+}
 li:hover a {
   color:black
 }
@@ -28,14 +36,18 @@ li a {
   font-weight: bold;
   color: white;
   text-decoration: none;
-
-
 }
 
-.nav {
-
+.main-container {
+margin:0 auto;
+max-width: 900px;
+background-color: rgba(0, 0, 0, 0.4);
+background: rgba(0, 0, 0, 0.4);
+padding: 3rem;
 }
-
+ .nav{
+text-align: center;
+ }
 
 
 @import url(https://fonts.googleapis.com/css?family=Istok+Web);
