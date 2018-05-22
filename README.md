@@ -1,6 +1,6 @@
 # _{Plaza del Epicodus}_
 
-#### _{Brief description of application}, {May 22 2018}_
+#### _{Website for the Plaza del Epicodus resort}, {May 22 2018}_
 
 #### By _**{Ryan Putman and Nate Cottle}**_
 
