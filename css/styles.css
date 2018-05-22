@@ -5,7 +5,7 @@ body {
 }
 
 h1, h2, h3, p {
-  color: white;
+  color: black;
 }
 
 h1, h2, h3 {
@@ -19,7 +19,7 @@ li {
   display: inline-block;
   margin-right: 10px;
   padding: 10px;
-  background: black;
+  background: white;
 
   font-family: 'Quattrocento', serif;
 }
@@ -27,26 +27,26 @@ ul{
     padding: 0px;
 }
 li:hover {
-  background: white;
+  background: black;
 }
 img{
   max-width: 100%;
 }
 li:hover a {
-  color:black
+  color:white;
 }
 
 li a {
   font-weight: bold;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 .main-container {
 margin:0 auto;
 max-width: 900px;
-background-color: rgba(0, 0, 0, 0.4);
-background: rgba(0, 0, 0, 0.4);
+background-color: rgba(256, 256, 256, 0.8);
+background: rgba(256,256, 256, 0.8);
 padding: 3rem;
 }
  .nav{
@@ -74,7 +74,7 @@ text-align: center;
 }
 
 form label {
-  color: white;
+  color: black;
   padding-bottom: 5px;
 }
 form input, textarea {
