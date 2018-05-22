@@ -1,3 +1,43 @@
+body {
+  background-image: url(../img/dark.png);
+  background-color: black;
+}
+
+h1, h2, p {
+  color: white;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  background: black;
+
+  font-family: 'Quattrocento', serif;
+}
+
+li:hover {
+  background: white;
+}
+
+li:hover a {
+  color:black
+}
+
+li a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+
+}
+
+.nav {
+
+}
+
+
+
 @import url(https://fonts.googleapis.com/css?family=Istok+Web);
 @keyframes slidy {
 0% { left: 0%; }
