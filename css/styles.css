@@ -45,8 +45,8 @@ li a {
 .main-container {
 margin:0 auto;
 max-width: 900px;
-background-color: rgba(256, 256, 256, 0.8);
-background: rgba(256,256, 256, 0.8);
+background-color: rgba(238, 227, 217, 0.4);
+background: rgba(238, 227, 217, 0.4);
 padding: 3rem;
 }
  .nav{
